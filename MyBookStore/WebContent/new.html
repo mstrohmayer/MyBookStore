@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MyBookShop</title>
+</head>
+<body>
+	<h1>Webshop - neues Buch eintragen</h1>
+	<form action="localhost:8080/MyBookShop/rest/shop/new" method="post">
+		<table>
+			<tr>
+				<td>Titel</td>
+				<td><input type="text" name="title" /></td>
+			</tr>
+			<tr>
+				<td>Autor</td>
+				<td><input type="text" name="author" /></td>
+			</tr>
+			<tr>
+				<td>ISBN</td>
+				<td><input type="text" name="isbn" /></td>
+			</tr>
+			<tr>
+				<td>Verlag</td>
+				<td><input type="text" name="publisher" /></td>
+			</tr>
+		</table>
+		<input type="submit" value="Eintragen">
+	</form>
+</body>
+</html>
